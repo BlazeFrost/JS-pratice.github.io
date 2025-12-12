@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Figma</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/CSS" href="./Switch/Tabs.css?">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="table">
+        <header>
+            <h2>Tabs - Chuyển đổi nội dung</h2>
+        </header>
+    
+        <div class="button">
+            <button onclick="switchTab(0)">Giới thiệu</button>
+            <button onclick="switchTab(1)">Tính năng</button>
+            <button onclick="switchTab(2)">Liên hệ</button>
+        </div>
+    </div>
+
+    <div class="TableContent" id="tab0">
+        <h3>👋 Chào mừng!</h3>
+        <p>Đây là tab giới thiệu. Bạn có thể click vào các tab khác để xem nội dung khác nhau.</p>
+    </div>
+
+    <div class="TableContent" id="tab1">
+        <h3>⭐ Tính năng nổi bật</h3>
+        <p>
+            - Giao diện thân thiện
+            <br>- Dễ sử dụng
+            <br>- Tốc độ nhanh
+        </p>
+    </div>
+
+    <div class="TableContent" id="tab2">
+        <h3>📞 Liên hệ</h3>
+        <p>
+            Email: contact@example.com
+            <br>Phone: 0123 456 789
+        </p>
+    </div>
+
+    <script src="./Switch/Tabs.js"></script>
+</body>

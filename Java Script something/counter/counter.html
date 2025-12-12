@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Figma</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/CSS" href="./numbers/counter.css?">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="middle">
+    <header>
+        <h1>Counter - Đếm số với giới hạn</h1>
+    </header>
+
+    <div class="counter">
+        <div class="counter-number" id="counterValue">0</div>
+    </div>
+
+    <div class="counter-button">
+        <button class="decrease" onclick="changeCounter(-10)">-10</button>
+        <button class="decrease" onclick="changeCounter(-1)">-1</button>
+        <button class="reset" onclick="resetCounter()">↺</button>
+        <button class="increase" onclick="changeCounter(1)">+1</button>
+        <button class="increase" onclick="changeCounter(10)">+10</button>
+    </div>
+
+    <p>Giới hạn: -100 đến 100</p>
+
+    <script src="./numbers/counter.js"></script>
+</body>

@@ -1,0 +1,62 @@
+.table{
+    margin: 0;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: none;
+}
+
+.button{
+        width: 699px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.button button{
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.body{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-inline: 8px;
+}
+
+.TableContent{
+    display: none;
+}
+
+.TableContent-active{
+    margin: 0;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 0 auto;
+    border-top: none;
+}
